@@ -17,7 +17,7 @@
 	<header>
 	    <div class="d-flex bg-secondary p-2  flex-column flex-md-row align-items-center border-bottom" style="--bs-bg-opacity: .05;">
 	     	<a href="/" class="d-flex align-items-center px-2 py-3 text-dark text-decoration-none">
-	      		<img src="img/logo.png" class="img-thumbnail alt="Logotipo" width="40" height="32">
+	      		<img src="img/logo.png" class="img-thumbnail" alt="Logotipo" width="40" height="32">
 	        	<span class="fs-4">Dr. Leonardo roeder</span>
 	      	</a>
 
@@ -37,13 +37,7 @@
 	<div>
 	  	<!--menu superior -->
 	  	<div class="container-fluid menu-color bg-secondary" style="--bs-bg-opacity: .06;">
-		  	<ul class="nav justify-content-end">
-			  <li class="nav-item">
-				
-			  </li>
-			  
-			  
-			</ul>
+		  	
 			
 		  	<nav class="navbar navbar-expand-lg">
 			  
@@ -89,17 +83,17 @@
 					          <a class="nav-link active" aria-current="page" href="#">INÍCIO</a>
 					        </li>
 					        <li class="nav-item">
-					          <a class="nav-link" href="#">SOBRE</a>
+					          <a class="nav-link" href="#sobre">SOBRE</a>
 					        </li>
 					        <li class="nav-item">
-					          <a class="nav-link">ESPECIALIDADES</a>
+					          <a class="nav-link" href="#especialidade">ESPECIALIDADES</a>
 					        </li>
 					        
 			   		        <li class="nav-item">
 					          <a class="nav-link">FAQ</a>
 					        </li>
 					        <li class="nav-item">
-					          <a class="nav-link">CONTATO</a>
+					          <a class="nav-link" href="#contato">CONTATO</a>
 					        </li>
 
 					        <li>
@@ -148,7 +142,7 @@
 			    </div>
 			</div>
 		</div><!-- fim descrição DR -->
-		<div class="bg-secondary p-2 py-4" style="--bs-bg-opacity: .06;"> <!-- sobre -->
+		<div class="bg-secondary p-2 py-4" id="sobre" style="--bs-bg-opacity: .06;"> <!-- sobre -->
 
 			<div class="container col-xxl-8  py-4">
 			    <div class="row flex-lg-row-reverse align-items-center  ">
@@ -182,7 +176,7 @@
 			</div>
 		</div><!-- fim sobre -->
 		
-		<div><!-- especialidades -->
+		<div id="especialidade"><!-- especialidades -->
 			<div class="container col-xxl-8  py-4">
   		
       			<div class="row mb-3  py-4">
@@ -274,16 +268,16 @@
 
 
 		</div>
-		<div class="bg-secondary " style="--bs-bg-opacity: .06;">
+		<div class="bg-secondary " id='contato'  style="--bs-bg-opacity: .06;">
 			<div class="container col-xxl-8  py-4">
 			    <div class="row flex-lg-row-reverse align-items-center  ">
 			    	<div class="row mb-3  py-4">
-    				<label class="col-sm-8  display-6  lh-2 mb-3">Entre em contato</label>
-    				<label class="col-sm-8  display-5  lh-2 mb-3">Vamos conversar?</label>
-    				 
-    				<div class="col-sm-4">
+	    				<label class="col-md-8 col-sm-12  display-6  lh-2 mb-3">Entre em contato</label>
+	    				<label class="col-md-8 col-sm-12  display-5  lh-2 mb-3">Vamos conversar?</label>
+	    				 
+	    				<div class="col-md-4 col-sm-12">
 
-    					<button type="button" class="btn btn-lg btn-success">
+	    					<button type="button" class="btn col-sm-12  btn-lg btn-success">
 			        			<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
 								   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
 								   <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
@@ -291,11 +285,11 @@
 								</svg>
 			        			WhatsApp 41 9944.6545
 			        		</button>
-   					</div>
-	  			</div>
+	   					</div>
+		  			</div>
 
 			        
-			      	<div class="col-10 col-sm-8 col-lg-6 ">
+			      	<div class="col-lg-6 col-md-12 ">
 			      		<div class="row " >
 			      			
 							<div class="mb-3">
@@ -326,7 +320,7 @@
 			      		</div>
 			      		
 			      	</div>
-			      	<div class="col-lg-6">
+			      	<div class="col-lg-6 col-md-12 py-4">
 
 						<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 						 	<div class="carousel-inner">
@@ -397,41 +391,27 @@
 			    </div>
 			
 		</div>
-	</div><!-- fim pagina -->
-
-
-	<div class="container-fluid menu-color bg-secondary border-top" style="--bs-bg-opacity: .06;">
-		  	<ul class="nav justify-content-end">
-			  <li class="nav-item">
+		<div class="container-fluid menu-color bg-secondary border-top" style="--bs-bg-opacity: .06;"> <!-- FOOTER -->
+			  
 				
-			  </li>
-			  
-			  
-			</ul>
-			
 		  	<nav class="navbar navbar-expand-lg">
 			  
 				<div class="container-fluid">
 			    
-				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-				      <span class="navbar-toggler-icon"></span>
-				    </button>
+				    
 
-				    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+				    <div class="navbar-collapse">
 
 				      
 				     	<ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
 				     		<li class="nav-item">
 					        	<a href="/" class="d-flex align-items-center px-2 py-3 text-dark text-decoration-none">
-						      		<img src="img/logo.png" class="img-thumbnail alt="Logotipo" width="40" height="32">
+						      		<img src="img/logo.png" class="img-thumbnail" alt="Logotipo" width="40" height="32">
 						        	<span class="fs-4">Dr. Leonardo roeder</span>
 						      	</a>
 
 					        </li>
-				     				
-					        	</ul>
-					        	
-					        </li>
+				     	
 					        
 				      	</ul>
 				      	<ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
@@ -473,7 +453,11 @@
 				    </div>
 				</div>
 			</nav>
-	  	</div><!--fim menu superior -->
+		</div><!--fim FOOTER -->
+	</div><!-- fim pagina -->
+
+
+
 
   	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   	<!-- crianças não façam como o tio, instalem o bootstrap no seu projeto e tenham mais segurança e confiabilidade-->
